@@ -18,7 +18,7 @@ st.set_page_config(page_title="Fish Detection Platform", page_icon="🐟", layou
 st.sidebar.title("⚙️ Settings")
 WEIGHTS = st.sidebar.text_input(
     "YOLO Weights (.pt)",
-    value=r"C:/Users/achua/PyCharmMiscProject/runs/detect/fish_counter_v1719/weights/best.pt",
+    value="best.pt",
     help="Path to your trained weights."
 )
 IMG_SIZE = st.sidebar.slider("Inference image size", 320, 1280, 640, step=32)
@@ -216,3 +216,4 @@ elif uploaded and uploaded.type.startswith("video"):
 # --------------------------
 st.markdown("---")
 st.caption("This demo assumes class id 0 is 'fish'. If your dataset uses different ids/names, adjust counting logic.")
+
