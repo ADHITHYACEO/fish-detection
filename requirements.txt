@@ -1,0 +1,4 @@
+ultralytics==8.*
+streamlit
+opencv-python
+numpy
