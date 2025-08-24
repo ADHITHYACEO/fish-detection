@@ -6,5 +6,6 @@ torch>=1.10.0
 torchvision>=0.11.0
 Pillow>=9.0.0
 gdown==4.4.0
-imghdr-py==0.3.0
+
+
 
